@@ -15,6 +15,7 @@
 		790540882407265C004BDE83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790540862407265C004BDE83 /* LaunchScreen.storyboard */; };
 		790540932407265C004BDE83 /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790540922407265C004BDE83 /* ParstagramTests.swift */; };
 		7905409E2407265C004BDE83 /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7905409D2407265C004BDE83 /* ParstagramUITests.swift */; };
+		7914C2312412BE7500D996AF /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2302412BE7500D996AF /* CommentCell.swift */; };
 		795B66C82408CCF700E6B6A1 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B66C72408CCF700E6B6A1 /* CameraViewController.swift */; };
 		795B66CE2408EC3F00E6B6A1 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B66CD2408EC3F00E6B6A1 /* PostTableViewCell.swift */; };
 		7967F7F024074568008CCB0C /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967F7EF24074568008CCB0C /* FeedViewController.swift */; };
@@ -58,6 +59,7 @@
 		790540992407265C004BDE83 /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7905409D2407265C004BDE83 /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		7905409F2407265C004BDE83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7914C2302412BE7500D996AF /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		795B66C72408CCF700E6B6A1 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		795B66CD2408EC3F00E6B6A1 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		7967F7EF24074568008CCB0C /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = /Users/marcoaguilera/Desktop/Parstagram/Parstagram/FeedViewController.swift; sourceTree = "<absolute>"; };
@@ -127,6 +129,7 @@
 				7905407B24072658004BDE83 /* AppDelegate.swift */,
 				7905407D24072658004BDE83 /* SceneDelegate.swift */,
 				7905408124072658004BDE83 /* Main.storyboard */,
+				7914C2302412BE7500D996AF /* CommentCell.swift */,
 				795B66CD2408EC3F00E6B6A1 /* PostTableViewCell.swift */,
 				795B66C72408CCF700E6B6A1 /* CameraViewController.swift */,
 				790540842407265C004BDE83 /* Assets.xcassets */,
@@ -422,6 +425,7 @@
 				7967F7F024074568008CCB0C /* FeedViewController.swift in Sources */,
 				7905407E24072658004BDE83 /* SceneDelegate.swift in Sources */,
 				795B66CE2408EC3F00E6B6A1 /* PostTableViewCell.swift in Sources */,
+				7914C2312412BE7500D996AF /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -18,6 +19,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        Parse.initialize(
+                   with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) -> Void in
+                       configuration.applicationId = "myAppId"
+                       configuration.server = "https://still-anchorage-93515.herokuapp.com/parse"
+                   })
+               )
+        
+        if PFUser.current() != nil {
+            let main = UIStoryboard(name: "Main", bundle: nil)
+            let feedNavigtionController = main.instantiateViewController(withIdentifier: "FeedNavigationController")
+            
+        
+            self.window?.rootViewController = feedNavigtionController
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
